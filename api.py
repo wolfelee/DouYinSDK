@@ -2,21 +2,11 @@
 
 class API:
 
-    SearchUsers         = '/douyin/search/users'
-    SearchVideos        = '/douyin/search/videos'
-    SearchGeneral       = '/douyin/search/general'
-    SearchMusic         = '/douyin/search/music'
-    SearchChallenge     = '/douyin/search/challenge'
-    SearchPoi           = '/douyin/search/poi'
-
     UserInfo            = '/douyin/user/info'
-    UserFollowers       = '/douyin/user/follower'
-    UserFollowings      = '/douyin/user/following'
+    UserLiveInfo        = '/douyin/user/live/info'
     UserPosts           = '/douyin/user/posts'
-    UserDongtai         = '/douyin/user/dongtai'
-    UserFavourites      = '/douyin/user/favourite'
+    UserFavourites      = '/douyin/user/favourites'
     UserPromotions      = '/douyin/user/promotions'
-    UserPromotionsSearch= '/douyin/user/promotions/search'
 
     VideoComments       = '/douyin/video/comments'
     VideoPromotions     = '/douyin/video/promotions'
@@ -24,20 +14,25 @@ class API:
 
     ChallengeDetail     = '/douyin/challenge/detail'
     ChallengeVideos     = '/douyin/challenge/videos'
-
-    MusicDetail         = '/douyin/music/detail'
-    MusicVideos         = '/douyin/music/videos'
-
     PoiDetail           = '/douyin/poi/detail'
     PoiVideos           = '/douyin/poi/videos'
+
+    LiveRoomChat        = '/douyin/liveroom/chat'
+    LiveRoomPromotions  = '/douyin/liveroom/promotions'
+    LiveRoomInfo        = '/douyin/lives/room'
+    LiveRoomCheck       = '/douyin/lives/check'
 
     PromotionsVideosFeed= '/douyin/promotion/videos/feed'
     PromotionInfo       = '/douyin/promotion/info'
     PromotionSameVideos = '/douyin/promotion/samevideos'
 
     RealStarBoard       = '/douyin/starboard'
+    RealHotTags         = '/douyin/funnytags'
     RealHotBoard        = '/douyin/hotboard'
     RealGoodsBoard      = '/douyin/goodsboard'
-    RealHotVideos       = '/douyin/hotvideo'
+    RealHotVideos       = '/douyin/hotvideos'
+    RealBrandBoard      = '/douyin/brand/board'
+    RealBrandCates      = '/douyin/brand/categories'
+    RealBrandDetail     = '/douyin/brand/detail'
 
 
