@@ -85,7 +85,7 @@ class AwemeSDK:
     @register(API.VideoDetail)
     def GetVideoDetail(self,aweme_id):
         '''
-        热榜品牌详情
+        获取视频详情
         :param aweme_id:视频的id
         '''
         return {
@@ -322,5 +322,31 @@ class AwemeSDK:
             'token': self.token,
             'category': category_id,
             'brand_id':brand_id
+        }
+
+    @register(API.SearchUsers)
+    def SearchUsers(self,keyword,cursor=0):
+        '''
+        关键词搜索用户
+        :param keyword:搜索关键词
+        :param cursor:翻页游标，初始为0，根据返回的cursor值进行翻页
+        '''
+        return {
+            'token': self.token,
+            'keyword': keyword,
+            'cursor':cursor
+        }
+
+    @register(API.SearchVideos)
+    def SearchVideos(self,keyword,cursor=0):
+        '''
+        关键词搜索视频
+        :param keyword:搜索关键词
+        :param cursor:翻页游标，初始为0，根据返回的cursor值进行翻页
+        '''
+        return {
+            'token': self.token,
+            'keyword': keyword,
+            'cursor':cursor
         }
 

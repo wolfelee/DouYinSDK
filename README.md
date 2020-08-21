@@ -204,3 +204,17 @@ result = sdk.BrandCategories()
 result = sdk.BrandDetail(2,9117)
 
 ```
+
+## 29.关键词搜索用户
+```python
+
+result = sdk.SearchUsers('美女')
+
+```
+
+## 30.关键词搜索视频
+```python
+
+result = sdk.SearchVideos('美女')
+
+```

@@ -36,4 +36,7 @@ class API:
     RealBrandCates      = '/douyin/brand/categories'
     RealBrandDetail     = '/douyin/brand/detail'
 
+    SearchUsers         = '/douyin/search/users'
+    SearchVideos        = '/douyin/search/videos'
+
 
