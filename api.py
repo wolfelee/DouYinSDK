@@ -9,6 +9,7 @@ class API:
     UserPromotions      = '/douyin/user/promotions'
 
     VideoComments       = '/douyin/video/comments'
+    VideoDetail         = '/douyin/video/detail'
     VideoPromotions     = '/douyin/video/promotions'
     VideoCommentReplies = '/douyin/video/comment/reply'
 

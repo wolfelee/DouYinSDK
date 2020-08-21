@@ -82,6 +82,17 @@ class AwemeSDK:
             'cursor': cursor,
         }
 
+    @register(API.VideoDetail)
+    def GetVideoDetail(self,aweme_id):
+        '''
+        热榜品牌详情
+        :param aweme_id:视频的id
+        '''
+        return {
+            'token': self.token,
+            'aweme_id': aweme_id,
+        }
+
     @register(API.VideoPromotions)
     def GetVideoPromotions(self, aweme_id):
         '''
@@ -312,3 +323,4 @@ class AwemeSDK:
             'category': category_id,
             'brand_id':brand_id
         }
+

@@ -48,6 +48,13 @@ result = sdk.GetVideoComments('6785429036362386696')
 
 ```
 
+## 28.视频详情
+```python
+
+result = sdk.GetVideoDetail(6849103450475711752)
+
+```
+
 ## 6.视频带货信息
 ```python
 
