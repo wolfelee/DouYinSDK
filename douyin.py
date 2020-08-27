@@ -241,7 +241,7 @@ class AwemeSDK:
         '''
         return {
             'token':self.token,
-            'room_id':room_id
+            'room_ids':room_id
         }
 
     @register(API.RealStarBoard)
